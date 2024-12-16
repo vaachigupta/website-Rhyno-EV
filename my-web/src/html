@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyno EV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Rhyno EV</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Products</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">SE03 Lite</a></li>
+                        <li><a href="#">SE03</a></li>
+                        <li><a href="#">SE03 Max</a></li>
+                        <li><a href="#">Compare All</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="pre-book">Pre-book Now</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Let's Elevate Your Ride Experience With Rhyno</h1>
+            <p>Where Superiority Meets <span class="rotating-text">Style</span></p>
+            <button class="pre-book-btn">Pre-book Now</button>
+        </div>
+    </header>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="C:\Users\hp\Downloads\rhyno final.95.png" alt="SE03 Lite">
+                <h3>SE03 Lite</h3>
+            </div>
+            <div class="product-item">
+                <img src="C:\Users\hp\Downloads\rhyno final.95.png" alt="SE03">
+                <h3>SE03</h3>
+            </div>
+            <div class="product-item">
+                <img src="C:\Users\hp\Downloads\rhyno final.95.png" alt="SE03 Max">
+                <h3>SE03 Max</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="comparison">
+        <h2>Compare All Models</h2>
+        <table>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    padding: 0;
+                }
+                .table-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .table {
+                    display: table;
+                    border-collapse: collapse;
+                    width: 100%;
+                    max-width: 800px;
+                }
+                .table-row {
+                    display: table-row;
+                }
+                .table-cell {
+                    display: table-cell;
+                    padding: 10px;
+                    text-align: center;
+                    vertical-align: top;
+                    border-bottom: 1px solid transparent;
+                }
+                .table-cell-header {
+                    font-weight: bold;
+                    background-color: #f4f4f4;
+                    border-bottom: 2px solid #ddd;
+                }
+                .table-cell img {
+                    max-width: 100px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                @media (max-width: 600px) {
+                    .table {
+                        width: 100%;
+                    }
+                    .table-cell {
+                        display: block;
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 10px 5px;
+                    }
+                    .table-cell-header {
+                        display: none;
+                    }
+                    .table-cell::before {
+                        content: attr(data-label);
+                        font-weight: bold;
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                }
+            </style>
+        
+            <h1>Comparison Table</h1>
+        
+            <div class="table-container">
+                <div class="table">
+                    <div class="table-row">
+                        <div class="table-cell table-cell-header">Specification</div>
+                        <div class="table-cell table-cell-header">Rhyno SE03 Lite</div>
+                        <div class="table-cell table-cell-header">Rhyno SE03</div>
+                        <div class="table-cell table-cell-header">Rhyno SE03 Max</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Battery</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">1.8Kwh</div>
+                        <div class="table-cell" data-label="Rhyno SE03">2.7Kwh</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">2.7Kwh</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Battery features</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">
+                            LFP with 1500 cycles<br>
+                            Active Balancing<br>
+                            Waterproof (IP67)
+                        </div>
+                        <div class="table-cell" data-label="Rhyno SE03">
+                            LFP with 1500 cycles<br>
+                            Active Balancing<br>
+                            Waterproof (IP67)
+                        </div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">
+                            LFP with 1500 cycles<br>
+                            Active Balancing<br>
+                            Waterproof (IP67)
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Battery warranty</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">3 years</div>
+                        <div class="table-cell" data-label="Rhyno SE03">3 years</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">3 years</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Charging time</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">3 hours (12A)</div>
+                        <div class="table-cell" data-label="Rhyno SE03">4 hours (12A)</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">4 hours (12A)</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Motor</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">1500W</div>
+                        <div class="table-cell" data-label="Rhyno SE03">1500W</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">2000W</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Max speed</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">55 km/h</div>
+                        <div class="table-cell" data-label="Rhyno SE03">55 km/h</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">65 km/h</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Warranty on electronics</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">1 year</div>
+                        <div class="table-cell" data-label="Rhyno SE03">1 year</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">1 year</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Max range (@30km/h)</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">100 km</div>
+                        <div class="table-cell" data-label="Rhyno SE03">150 km</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">120 km</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Max range (@45km/h)</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">90 km</div>
+                        <div class="table-cell" data-label="Rhyno SE03">110 km</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">100 km</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Max range (@full speed)</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">60 km</div>
+                        <div class="table-cell" data-label="Rhyno SE03">90 km</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">80 km</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell" data-label="Specification">Other key benefits</div>
+                        <div class="table-cell" data-label="Rhyno SE03 Lite">
+                            Fire-safe Battery<br>
+                            Range prediction<br>
+                            Comfortable ride<br>
+                            Stable and safe
+                        </div>
+                        <div class="table-cell" data-label="Rhyno SE03">
+                            Fire-safe battery<br>
+                            Range prediction<br>
+                            Comfortable ride<br>
+                            Stable and safe
+                        </div>
+                        <div class="table-cell" data-label="Rhyno SE03 Max">
+                            Fire-safe battery<br>
+                            Range prediction<br>
+                            Comfortable ride<br>
+                            Stable and safe
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add table rows and data as needed -->
+        </table>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Career</a>
+            <a href="#">Rentals</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="C:\Users\hp\Downloads\instagram.jpeg" alt="Instagram"></a>
+            <a href="#"><img src="C:\Users\hp\Downloads\linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
