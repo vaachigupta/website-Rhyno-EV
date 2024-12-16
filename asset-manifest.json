@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.24a18c4c.css",
-    "main.js": "/static/js/main.2415264e.js",
-    "static/js/453.a0345f9e.chunk.js": "/static/js/453.a0345f9e.chunk.js",
-    "static/media/productimg.png": "/static/media/productimg.4e4d92df898154432b93.png",
-    "static/media/hyunjin painting.jpeg": "/static/media/hyunjin painting.d8df45f5d626e5dd026a.jpeg",
-    "static/media/yes.jpg": "/static/media/yes.c794a6c4b838d964f3f2.jpg",
-    "static/media/instagram.png": "/static/media/instagram.8ad0d97452ee318149fa.png",
-    "index.html": "/index.html",
-    "main.24a18c4c.css.map": "/static/css/main.24a18c4c.css.map",
-    "main.2415264e.js.map": "/static/js/main.2415264e.js.map",
-    "453.a0345f9e.chunk.js.map": "/static/js/453.a0345f9e.chunk.js.map"
+    "main.css": "/website-Rhyno-EV/static/css/main.32198e75.css",
+    "main.js": "/website-Rhyno-EV/static/js/main.92256e2b.js",
+    "static/js/453.a0345f9e.chunk.js": "/website-Rhyno-EV/static/js/453.a0345f9e.chunk.js",
+    "static/media/productimg.png": "/website-Rhyno-EV/static/media/productimg.4e4d92df898154432b93.png",
+    "static/media/yes.jpg": "/website-Rhyno-EV/static/media/yes.c794a6c4b838d964f3f2.jpg",
+    "static/media/instagram.png": "/website-Rhyno-EV/static/media/instagram.8ad0d97452ee318149fa.png",
+    "index.html": "/website-Rhyno-EV/index.html",
+    "main.32198e75.css.map": "/website-Rhyno-EV/static/css/main.32198e75.css.map",
+    "main.92256e2b.js.map": "/website-Rhyno-EV/static/js/main.92256e2b.js.map",
+    "453.a0345f9e.chunk.js.map": "/website-Rhyno-EV/static/js/453.a0345f9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24a18c4c.css",
-    "static/js/main.2415264e.js"
+    "static/css/main.32198e75.css",
+    "static/js/main.92256e2b.js"
   ]
 }
