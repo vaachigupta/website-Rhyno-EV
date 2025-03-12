@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProductGrid from '../components/ProductGrid'; // Ensure this path is correct
+import ProductGrid from '../components/ProductGrid'; 
 import './Home.css';
 
 const Home = () => {
